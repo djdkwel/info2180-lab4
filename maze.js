@@ -28,15 +28,10 @@ window.onload = function(){
 				x[j].classList.add("youlose")
 				
 				color = true;
-				
 				}
 				
 				
 				})
-				
-				
-				
-			
 				
 					}
 	
@@ -53,14 +48,13 @@ window.onload = function(){
 			if(color == false){
 				stat.innerHTML = "You Win"
 			}
-			else{
-				stat.innerHTML = "You Lose"
-			}
+			
 	
 		}
 	maze.onmouseleave = function(){
 		
-	stat.innerHTML = "You Lose"}
+		stat.innerHTML = "You Lose"
+		color= true;}
 			
 			}
 			
